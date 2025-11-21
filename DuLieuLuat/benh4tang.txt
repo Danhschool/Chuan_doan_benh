@@ -1,0 +1,32 @@
+Sốt_cao ^ Sốt_nhẹ -> Dấu_hiệu_Sốt:
+Buồn_nôn ^ Nôn_mửa ^ Chán_ăn -> Dấu_hiệu_Rối_loạn_Dạ_dày:
+Da_vàng ^ Vàng_mắt -> Dấu_hiệu_Hoàng_đản:
+Nước_tiểu_sẫm_màu ^ Nước_tiểu_màu_vàng -> Dấu_hiệu_Bất_thường_Nước_tiểu:
+Đau_khớp ^ Đau_cơ ^ Đau_lưng -> Dấu_hiệu_Đau_Cơ_Xương:
+Phát_ban ^ Đốm_đỏ_trên_cơ_thể ^ Mụn_nước -> Dấu_hiệu_Tổn_thương_Da:
+Hắt_hơi_liên_tục ^ Sổ_mũi ^ Nghẹt_mũi ^ Ho -> Dấu_hiệu_Viêm_Hô_hấp:
+Đau_hốc_mắt ^ Đau_đầu -> Dấu_hiệu_Đau_Thần_kinh:
+Dấu_hiệu_Hoàng_đản ^ Dấu_hiệu_Bất_thường_Nước_tiểu -> Tổn_thương_Chức_năng_Gan_Mật:
+Dấu_hiệu_Sốt ^ Run_rẩy ^ Đổ_mồ_hôi -> Phản_ứng_Viêm_Toàn_thân:
+Dấu_hiệu_Rối_loạn_Dạ_dày ^ Đau_bụng ^ Tiêu_chảy -> Rối_loạn_Tiêu_hóa_Cấp_tính:
+Dấu_hiệu_Tổn_thương_Da ^ Ngứa -> Viêm_Da_Dị_ứng_hoặc_Nhiễm_khuẩn:
+Dấu_hiệu_Tổn_thương_Da ^ Bong_tróc_da ^ Viêm_móng -> Tổn_thương_Biểu_bì_Sừng:
+Dấu_hiệu_Viêm_Hô_hấp ^ Mất_khứu_giác ^ Đờm -> Nhiễm_trùng_Đường_Hô_hấp:
+Tổn_thương_Chức_năng_Gan_Mật ^ Rối_loạn_Tiêu_hóa_Cấp_tính ^ Uể_oải -> Hội_chứng_Viêm_Gan_Cấp:
+Phản_ứng_Viêm_Toàn_thân ^ Dấu_hiệu_Đau_Thần_kinh ^ Dấu_hiệu_Đau_Cơ_Xương -> Hội_chứng_Sốt_Nhiễm_Trùng_Nặng:
+Nhiễm_trùng_Đường_Hô_hấp ^ Phản_ứng_Viêm_Toàn_thân -> Hội_chứng_Cảm_Cúm:
+Tổn_thương_Biểu_bì_Sừng ^ Dấu_hiệu_Đau_Cơ_Xương -> Hội_chứng_Vẩy_Nến_Khớp:
+Rối_loạn_Tiêu_hóa_Cấp_tính ^ Đói_quá_mức ^ Đau_đầu -> Hội_chứng_Hạ_Đường_Huyết:
+Hội_chứng_Viêm_Gan_Cấp ^ Dấu_hiệu_Đau_Cơ_Xương -> Viêm_gan_A:
+Hội_chứng_Viêm_Gan_Cấp ^ Dấu_hiệu_Bất_thường_Nước_tiểu ^ Ngứa -> Viêm_gan_B:
+Hội_chứng_Viêm_Gan_Cấp ^ Di_truyền -> Viêm_gan_C:
+Hội_chứng_Viêm_Gan_Cấp ^ Dấu_hiệu_Đau_Cơ_Xương ^ Đau_khớp -> Viêm_gan_D:
+Hội_chứng_Viêm_Gan_Cấp ^ Suy_gan_cấp_tính -> Viêm_gan_E:
+Hội_chứng_Sốt_Nhiễm_Trùng_Nặng ^ Dấu_hiệu_Rối_loạn_Dạ_dày -> Sốt_rét:
+Hội_chứng_Sốt_Nhiễm_Trùng_Nặng ^ Dấu_hiệu_Tổn_thương_Da ^ Đau_hốc_mắt -> Sốt_xuất_huyết:
+Hội_chứng_Sốt_Nhiễm_Trùng_Nặng ^ Dấu_hiệu_Tổn_thương_Da ^ Lên_hạch -> Thủy_đậu:
+Hội_chứng_Cảm_Cúm ^ Xoang -> Cảm_lạnh_thông_thường:
+Viêm_Da_Dị_ứng_hoặc_Nhiễm_khuẩn ^ Run_rẩy -> Dị_ứng:
+Hội_chứng_Vẩy_Nến_Khớp -> Vẩy_nến:
+Tổn_thương_Biểu_bì_Sừng ^ Da_khô_nứt_nẻ -> Nhiễm_trùng_nấm:
+Hội_chứng_Hạ_Đường_Huyết -> Hạ_đường_huyết:

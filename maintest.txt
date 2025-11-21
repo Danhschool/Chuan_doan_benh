@@ -1,0 +1,64 @@
+from XuLyLogic import TapLuat, SuyDienTien, SuyDienLui, FPG_RPG
+import pandas as pd
+from tabulate import tabulate
+
+
+# TapLuat.ThemLuat("a->b")
+# TapLuat.ThemLuat("a->c")
+# TapLuat.ThemLuat("a^b^c->d")
+# TapLuat.ThemLuat("d^b->e")
+# TapLuat.ThemLuat("b->f")
+# TapLuat.ThemLuat("c->g")
+
+MinMax = "Min"
+Luat = TapLuat.DocLuat()
+for i in Luat:
+    print(i)
+
+
+LuaChon = "Stack"
+GiaThiet = ['a']
+KetLuan = "L"
+# KetQuaKhongChonLuat, BangKhongChonLuat= SuyDienTien.KhongChonLuat(GiaThiet,KetLuan,Luat,LuaChon)
+# df = pd.DataFrame(BangKhongChonLuat)
+# print("\n📘 BẢNG QUY TRÌNH SUY DIỄN:\n")
+# print(tabulate(df.values, headers=df.columns, tablefmt="fancy_grid", showindex=False))
+# print(KetQuaKhongChonLuat)
+
+
+GFPG = FPG_RPG.FPG(Luat)
+
+
+# KetQua, BangMinMax= SuyDienTien.ChonLuatMinMax(GiaThiet, KetLuan, Luat, MinMax)
+# df = pd.DataFrame(BangMinMax)
+# print("\n📘 BẢNG QUY TRÌNH SUY DIỄN:\n")
+# print(tabulate(df.values, headers=df.columns, tablefmt="fancy_grid", showindex=False))
+# print(KetQua)
+
+# KetQuaFPG, BangFPG= SuyDienTien.ChonLuatFPG(GiaThiet, KetLuan, MinMax, GFPG, Luat)
+# df = pd.DataFrame(BangFPG)
+# print("\n📘 BẢNG QUY TRÌNH SUY DIỄN:\n")
+# print(tabulate(df.values, headers=df.columns, tablefmt="fancy_grid", showindex=False))
+# print(KetQuaFPG)
+
+GRPG = FPG_RPG.RPG(Luat)
+#
+# KetQuaRPG, BangRPG = SuyDienTien.ChonLuatRPG(GiaThiet, KetLuan, MinMax, GRPG, Luat)
+# df = pd.DataFrame(BangRPG)
+# print("\n📘 BẢNG QUY TRÌNH SUY DIỄN:\n")
+# print(tabulate(df.values, headers=df.columns, tablefmt="fancy_grid", showindex=False))
+# print(KetQuaRPG)
+
+
+BangSuyDienLuiMaxMin =SuyDienLui.ChonLuatMinMax(GiaThiet, KetLuan, Luat, MinMax)
+df = pd.DataFrame(BangSuyDienLuiMaxMin)
+print("\n📘 BẢNG QUY TRÌNH SUY DIỄN:\n")
+print(tabulate(df.values, headers=df.columns, tablefmt="fancy_grid", showindex=False))
+
+
+# KetQua, BangSuyDienLuiFPG = SuyDienLui.ChonLuatFPG(GiaThiet,KetLuan, MinMax ,GFPG, Luat)
+#
+# df = pd.DataFrame(BangSuyDienLuiFPG)
+# print("\n📘 BẢNG QUY TRÌNH SUY DIỄN:\n")
+# print(tabulate(df.values, headers=df.columns, tablefmt="fancy_grid", showindex=False))
+# print(KetQua)

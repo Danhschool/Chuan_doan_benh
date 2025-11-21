@@ -1,0 +1,32 @@
+Sot_cao ^ Sot_nhe -> Dau_hieu_Sot:
+Buon_non ^ Non_mua ^ Chan_an -> Dau_hieu_Roi_loan_Da_day:
+Da_vang ^ Vang_mat -> Dau_hieu_Hoang_dan:
+Nuoc_tieu_sam_mau ^ Nuoc_tieu_mau_vang -> Dau_hieu_Bat_thuong_Nuoc_tieu:
+Dau_khop ^ Dau_co ^ Dau_lung -> Dau_hieu_Dau_Co_Xuong:
+Phat_ban ^ Dom_do_tren_co_the ^ Mun_nuoc -> Dau_hieu_Ton_thuong_Da:
+Hat_hoi_lien_tuc ^ So_mui ^ Nghet_mui ^ Ho -> Dau_hieu_Viem_Ho_hap:
+Dau_hoc_mat ^ Dau_dau -> Dau_hieu_Dau_Than_kinh:
+Dau_hieu_Hoang_dan ^ Dau_hieu_Bat_thuong_Nuoc_tieu -> Ton_thuong_Chuc_nang_Gan_Mat:
+Dau_hieu_Sot ^ Run_ray ^ Do_mo_hoi -> Phan_ung_Viem_Toan_than:
+Dau_hieu_Roi_loan_Da_day ^ Dau_bung ^ Tieu_chay -> Roi_loan_Tieu_hoa_Cap_tinh:
+Dau_hieu_Ton_thuong_Da ^ Ngua -> Viem_Da_Di_ung_hoac_Nhiem_khuan:
+Dau_hieu_Ton_thuong_Da ^ Bong_troc_da ^ Viem_mong -> Ton_thuong_Bieu_bi_Sung:
+Dau_hieu_Viem_Ho_hap ^ Mat_khuu_giac ^ Dom -> Nhiem_trung_Duong_Ho_hap:
+Ton_thuong_Chuc_nang_Gan_Mat ^ Roi_loan_Tieu_hoa_Cap_tinh ^ Ue_oai -> Hoi_chung_Viem_Gan_Cap:
+Phan_ung_Viem_Toan_than ^ Dau_hieu_Dau_Than_kinh ^ Dau_hieu_Dau_Co_Xuong -> Hoi_chung_Sot_Nhiem_Trung_Nang:
+Nhiem_trung_Duong_Ho_hap ^ Phan_ung_Viem_Toan_than -> Hoi_chung_Cam_Cum:
+Ton_thuong_Bieu_bi_Sung ^ Dau_hieu_Dau_Co_Xuong -> Hoi_chung_Vay_Nen_Khop:
+Roi_loan_Tieu_hoa_Cap_tinh ^ Doi_qua_muc ^ Dau_dau -> Hoi_chung_Ha_Duong_Huyet:
+Hoi_chung_Viem_Gan_Cap ^ Dau_hieu_Dau_Co_Xuong -> Viem_gan_A:
+Hoi_chung_Viem_Gan_Cap ^ Dau_hieu_Bat_thuong_Nuoc_tieu ^ Ngua -> Viem_gan_B:
+Hoi_chung_Viem_Gan_Cap ^ Di_truyen -> Viem_gan_C:
+Hoi_chung_Viem_Gan_Cap ^ Dau_hieu_Dau_Co_Xuong ^ Dau_khop.1 -> Viem_gan_D:
+Hoi_chung_Viem_Gan_Cap ^ Suy_gan_cap_tinh -> Viem_gan_E:
+Hoi_chung_Sot_Nhiem_Trung_Nang ^ Dau_hieu_Roi_loan_Da_day -> Sot_ret:
+Hoi_chung_Sot_Nhiem_Trung_Nang ^ Dau_hieu_Ton_thuong_Da ^ Dau_hoc_mat -> Sot_xuat_huyet:
+Hoi_chung_Sot_Nhiem_Trung_Nang ^ Dau_hieu_Ton_thuong_Da ^ Len_hach -> Thuy_dau:
+Hoi_chung_Cam_Cum ^ Xoang -> Cam_lanh_thong_thuong:
+Viem_Da_Di_ung_hoac_Nhiem_khuan ^ Run_ray -> Di_ung:
+Hoi_chung_Vay_Nen_Khop -> Vay_nen:
+Ton_thuong_Bieu_bi_Sung ^ Da_kho_nut_ne -> Nhiem_trung_nam:
+Hoi_chung_Ha_Duong_Huyet -> Ha_duong_huyet:

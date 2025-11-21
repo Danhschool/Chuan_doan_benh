@@ -1,0 +1,16 @@
+a ^ b ^ C -> c : c=sqrt(a^2+b^2-2abcosC)
+a ^ b ^ ma -> c : ma^2=(2b^2+2c^2-a^2)/4
+a ^ b ^ mb -> c : mb^2=(2a^2+2c^2-b^2)/4
+A ^ B -> C : C=pi-A-B
+a ^ hc -> B : hc=a*sinB
+b ^ hc -> A : hc=b*sinA
+a ^ R -> A : sinA=a/2R
+b ^ R -> B : sinB=b/2R
+a ^ b ^ c -> P : P=a+b+c
+a ^ b ^ c -> p : p=(a+b+c)/2
+a ^ b ^ c -> mc : mc^2=(2a^2+2b^2-c^2)/4
+a ^ ha -> S : S=(a*ha)/2
+a ^ b ^ C -> S : S=(a*b*sinC)/2
+a ^ b ^ c ^ p -> S : S=sqrt(p*(p-a)*(p-b)*(p-c))
+b ^ S -> hb : hb= 2S/b
+S ^ p -> r : r= S/p

@@ -1,0 +1,31 @@
+R1: da_vàng ^ vàng_mắt -> Dấu_hiệu_hoàng_đảm:
+R2: buồn_nôn ^ nôn_mửa ^ chán_ăn -> Rối_loạn_tiêu_hóa_cơ_năng:
+R3: hắt_hơi_liên_tục ^ sổ_mũi -> Viêm_long_đường_hô_hấp:
+R4: ho ^ đờm ^ tức_ngực -> Tổn_thương_phế_quản_phổi:
+R5: đau_cơ ^ đau_khớp ^ mỏi_người -> Dấu_hiệu_toàn_thân:
+R6: Dấu_hiệu_hoàng_đảm ^ ngứa -> Tình_trạng_tắc_mật:
+R7: Dấu_hiệu_hoàng_đảm ^ Rối_loạn_tiêu_hóa_cơ_năng -> Hội_chứng_tổn_thương_gan_nghi_ngờ:
+R8: Viêm_long_đường_hô_hấp ^ sốt_cao ^ đau_đầu -> Hội_chứng_nhiễm_trùng_hô_hấp_trên:
+R9: Viêm_long_đường_hô_hấp ^ ngứa_mắt ^ ngứa_mũi -> Hội_chứng_phản_ứng_dị_ứng:
+R10: sốt_cao ^ đau_đầu ^ Dấu_hiệu_toàn_thân -> Hội_chứng_sốt_cấp_toàn_thân:
+R11: Phát_ban ^ ngứa ^ bong_tróc_da -> Hội_chứng_bệnh_da_mãn_tính:
+R12: đói_quá_mức ^ run_rẩy ^ đổ_mồ_hôi -> Hội_chứng_rối_loạn_đường_huyết_cấp:
+R13: Hội_chứng_tổn_thương_gan_nghi_ngờ ^ sốt_nhẹ ^ Dấu_hiệu_toàn_thân -> viêm_gan_A:
+R14: Hội_chứng_tổn_thương_gan_nghi_ngờ ^ Tình_trạng_tắc_mật ^ uể_oải -> viêm_gan_B:
+R15: Hội_chứng_tổn_thương_gan_nghi_ngờ ^ di_truyền -> viêm_gan_C:
+R16: Hội_chứng_tổn_thương_gan_nghi_ngờ ^ Tình_trạng_tắc_mật ^ đau_bụng_dữ_dội -> viêm_gan_D:
+R17: Hội_chứng_tổn_thương_gan_nghi_ngờ ^ sốt_cao ^ suy_gan_cấp_tính -> viêm_gan_E:
+R18: Hội_chứng_sốt_cấp_toàn_thân ^ Phát_ban ^ đốm_đỏ_trên_cơ_thể -> thuỷ_đậu:
+R19: Hội_chứng_sốt_cấp_toàn_thân ^ đau_hốc_mắt ^ đau_lưng ^ Rối_loạn_tiêu_hóa_cơ_năng -> sốt_xuất_huyết:
+R20: Hội_chứng_nhiễm_trùng_hô_hấp_trên ^ mất_khứu_giác ^ Tổn_thương_phế_quản_phổi -> cảm_lạnh_biến_chứng:
+R21: Hội_chứng_nhiễm_trùng_hô_hấp_trên ^ hắt_hơi_liên_tục -> cảm_lạnh_thông_thường:
+R22: Hội_chứng_phản_ứng_dị_ứng ^ Ớn_lạnh ^ nôn_mửa -> Sốc_phản_vệ_nhẹ:
+R23: Hội_chứng_rối_loạn_đường_huyết_cấp ^ ngất_xỉu -> Hạ_đường_huyết_nguy_kịch:
+R24: Hội_chứng_rối_loạn_đường_huyết_cấp ^ đau_đầu -> Hạ_đường_huyết_nhẹ:
+R25: Hội_chứng_bệnh_da_mãn_tính ^ viêm_móng ^ đau_khớp -> vẩy_nến_thể_khớp:
+R26: Hội_chứng_bệnh_da_mãn_tính ^ viêm_móng -> nấm_móng:
+R27: viêm_gan_B ^ sơ_gan -> Ung_thư_gan_nguyên_phát:
+R28: viêm_gan_B ^ men_gan_cao -> Viêm_gan_B_tiến_triển:
+R29: sốt_xuất_huyết ^ chảy_máu_cam ^ chảy_máu_chân_răng -> Sốt_xuất_huyết_Dengue_có_dấu_hiệu_cảnh_báo:
+R30: sốt_xuất_huyết ^ tụt_huyết_áp ^ nôn_ra_máu -> Sốc_sốt_xuất_huyết_Dengue:
+R31: thuỷ_đậu ^ mụn_mủ ^ sốt_li bì -> Thuỷ_đậu_bội_nhiễm:
